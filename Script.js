@@ -10,9 +10,9 @@ function clearDisplay() {
 
 function calculateResult() {
     try {
-        display.value = eval(display.value); // Calculate the result
+        display.value = eval(display.value);
     } catch {
-        display.value = 'Error'; // Handle invalid input
-        setTimeout(clearDisplay, 1500); // Clear after 1.5 seconds
+        display.value = 'Error';
+        setTimeout(clearDisplay, 1500);
     }
 }
